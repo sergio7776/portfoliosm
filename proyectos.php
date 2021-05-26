@@ -1,3 +1,6 @@
+<?php
+$pg = "proyectos";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,35 +20,7 @@
 
 
 <body id="proyectos">
-    <header>
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link pe-5 py-1" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pe-5 py-1" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active py-1" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ps-5 py-1" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a href="" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php include_once("header.php");?>
 
 
     <main class="container">
@@ -137,25 +112,8 @@
     </main>
 
 
-    <footer class="container">
-        <div class="row mt-5">
-            <div class="col-12 col-sm-3 text-center text-sm-start">
-                <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sergio-miguel-blanco-oropeza-b611741b0/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
-                Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-            </div>
-            <div class="col-12 col-sm-3 text-sm-start  pt-2 p-sm-0">
-                <a href="mailto:sergioblancoor@gmail.com">sergioblancoor@gmail.com</a>
-            </div>
-        </div>
-    </footer>
-    <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=541122526133" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
-    </div>
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>    
+    <?php include_once("footer.php");?>
+
 </body>
 
 </html>

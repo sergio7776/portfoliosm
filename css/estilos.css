@@ -5,13 +5,21 @@ body {
 
 p {
     color: #6a6a6a;
+    font-size: 14px;
 }
 
 h1 {
     color: #E20000;
-    font-weight: 700;
+    font-weight: 500;
 }
-
+h2{
+    font-size: 24px;
+}
+h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
 input, textarea, .btn {
     border-radius: 15px !important;
 }
@@ -139,16 +147,112 @@ footer .fa-linkedin-in {
     bottom: 0px;
 }
 
+#inicio {
+    background-image: url(../imagenes/fondocontacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#inicio .cohete{
+    height: 400px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}
+#inicio .input-home p{
+    color:white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+/*TODO:SOBRE MI*/
+#sobre-mi {
+    background-image: url(../imagenes/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.img-circle{
+padding: 10px;
+border-radius: 50%;
+display: block;
+background-color: white;
+margin: 1em auto;
+}
+#sobre-mi .card{
+    height: 182px;
+}
+#sobre-mi .card p{
+    height: 90px;
+}
+#idiomas .card-idiomas{
+    border-radius: 15px;
+    padding-left: 0px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#formacion h2, #formacion h4{
+    color: #E20000;
+}
+#experiencia h3, #formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+#experiencia h4, #formacion h4{
+    font-size: 17px;
+    
+}
+#experiencia h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+.baw {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 .whatsapp a {
     color: white;
 }
 
-@media (max-width: 750px) {
-    /* Para mobile */
-    #contacto {
+@media (max-width: 700px) {/* Para mobile */
+    #inicio, #contacto {
         background-image: url(../imagenes/fondo-proyectos.png);
     }
-    footer a {
+    #inicio .input-home p {
         color: #E20000;
+        border: 1px solid #E20000;
+    }
+    footer, footer a{
+        color: #E20000;
+    }
+    footer .fa-github {
+        font-size: 30px;
+        color: #E20000;
+    }
+    footer .fa-linkedin-in {
+        color: white;
+        background-color: #E20000;
     }
 }
