@@ -41,6 +41,7 @@ $pg = "inicio";
                     <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
                 </div>
             </div>
+            
         </main> 
         <?php include_once("footer.php");?>
         <div class="whatsapp">
