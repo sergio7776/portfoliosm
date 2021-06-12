@@ -8,8 +8,9 @@
             <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
                 Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
             </div>
-            <div class="col-12 col-sm-3 text-sm-start  pt-2 p-sm-0">
+            <div class="col-12 text-center col-sm-3 text-sm-start  pt-2 p-sm-0">
                 <a href="mailto:sergioblancoor@gmail.com">sergioblancoor@gmail.com</a>
             </div>
         </div>
+        <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script> 
     </footer>

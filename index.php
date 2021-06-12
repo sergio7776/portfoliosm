@@ -21,11 +21,11 @@ $pg = "inicio";
 
 <body id="inicio">
         <?php include_once("header.php");?>
-        <main><!--TODO:-->
+        <main>
             <div class="container">
                 <div class="row">
                     <div class="col-12 mt-4 text-center div-cohete ">
-                        <a href="proyectos.html"><img src="imagenes/cohete.svg" class="cohete"></a>
+                        <a href="proyectos.php"><img src="imagenes/cohete.svg" class="cohete"></a>
                     </div>
                 </div>
             </div>

@@ -64,6 +64,13 @@ nav .active {
 #proyectos .card p {
     height: 90px;
 }
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
 
 .color-gradiente {
     background: rgba(184, 37, 20, 1);
@@ -153,7 +160,9 @@ footer .fa-linkedin-in {
     background-repeat: no-repeat;
 }
 
-#inicio .cohete{
+#inicio .div-cohete{
+    height: 410px;
+}#inicio .cohete{
     height: 400px;
 }
 #inicio .cohete:hover{
